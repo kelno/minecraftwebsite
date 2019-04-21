@@ -1,0 +1,84 @@
+body {
+	background: url("images/background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	font-family: Minecraft;
+	color: white;
+	font-size: 16px;
+}	
+
+.central {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 25%;
+	min-width: 250px;
+}
+
+.central > * {
+	margin-bottom: 15px;
+}
+
+.txtaddress {
+	width: 100%;
+	text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@font-face {
+	font-family: 'Minecraft';
+	src: url('fonts/mcfont.eot');
+	src: url('fonts/mcfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/mcfont.woff') format('woff'),
+	url('fonts/mcfont.ttf')  format('truetype'),
+	url('fonts/mcfont.svg#svgFontName') format('svg');
+}
+
+.button {
+	height: 40px;
+	width: 100%;
+	outline: 2px solid black;
+	position: relative;
+	display: inline-block;
+	background-image: url('images/button_center.png');
+	background-repeat: repeat;
+	text-align: center;
+	text-shadow: 3px 3px #4C4C4C;
+	border-bottom: 4px solid #565656;
+	border-right: 2px solid #565656;
+	border-left: 2px solid #AAA;
+	border-top: 2px solid #AAA;
+	box-sizing: border-box;
+	text-decoration:none;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:active {
+}
+
+.button span {
+	position: relative;
+	line-height: 40px;
+	bottom: 3px;
+}
+
+.button:hover {
+	border-bottom: 4px solid #59639A;
+	border-right: 2px solid #59639A;
+	border-left: 2px solid #BDC6FF;
+	border-top: 2px solid #BDC6FF;
+	background-image: url('images/button_active_center.png');
+	color: #FFFFA0;
+}
+
